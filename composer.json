@@ -1,0 +1,23 @@
+{
+    "name": "ejimba/laravel-at-api",
+    "description": "Africas Talking Laravel API for integrating Mobile Services in your PHP applications.",
+    "keywords": ["africa talking api", "sms", "voice", "laravel", "africa", "talking", "airtime", "api", "php", "kenya"],
+    "authors": [
+        {
+            "name": "Ejimba Eric",
+            "email": "ejimba@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.x",
+        "guzzlehttp/guzzle": "5.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ejimba\\LaravelAtApi": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
