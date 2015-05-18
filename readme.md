@@ -7,7 +7,6 @@ Add the following to the "require" section of your `composer.json` file.
 
 ```json
 "ejimba/laravel-at-api": "0.1.x"
-}
 ```
 Run the `composer update` command.
 
@@ -19,9 +18,11 @@ Then, in your `config/app.php` add this line to your 'providers' array.
 
 After installing, you can publish the package configuration file into your application by running the following command:
 
-`php artisan config:publish ejimba/laravel-at-api`
+```php
+php artisan config:publish ejimba/laravel-at-api
+```
 
-In the config file ENSURE YOU FILL IN YOUR API KEY and USERNAME. If you don't have the username and api key, register for a free account at [https://www.africastalking.com/account/register](https://www.africastalking.com/account/register) and get the details in the dashboard.
+**In the config file ensure you fill in your API KEY and USERNAME.** If you don't have the username and api key, register for a free account at [https://www.africastalking.com/account/register](https://www.africastalking.com/account/register) and get the details in the dashboard.
 
 ## Usage
 
